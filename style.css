@@ -59,6 +59,16 @@ nav a[aria-current="location"]::after { content:''; position:absolute; left:0;ri
 .venue { padding-top:.13rem; }
 .venue b { font:600 .95rem/1.3 var(--sans); color:var(--navy); }
 .venue time { display:block; color:var(--muted);font:400 .9rem/1.7 var(--sans);font-variant-numeric:tabular-nums; }
+.venue-meta { display:flex; align-items:center; gap:.4rem; }
+.ccf-rank {
+  padding:.08rem .34rem;
+  border:1px solid #c2d3df;
+  border-radius:4px;
+  background:#e8f0f5;
+  color:var(--navy);
+  font:600 .8rem/1.25 var(--sans);
+  white-space:nowrap;
+}
 .paper h3 { font:600 clamp(1.17rem,1.7vw,1.45rem)/1.23 var(--serif);letter-spacing:-.018em; }
 .paper h3 a { color:var(--ink);text-decoration:none; }
 .paper h3 a:hover { text-decoration:underline;color:var(--link); }
